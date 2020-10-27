@@ -37,3 +37,11 @@ def producto(lista: [int]) -> int:
     for i in lista:
         prod *= i
     return prod
+
+def elem_comun(lista1, lista2) -> str:
+       resultado = []
+       for element in lista1:
+           if element in lista2:
+               resultado.append(element)
+       return resultado
+    
